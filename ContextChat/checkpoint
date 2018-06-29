@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/subhag/Projects/ContextChat/model.tflearn"
+all_model_checkpoint_paths: "/home/subhag/Projects/ContextChat/model.tflearn"
