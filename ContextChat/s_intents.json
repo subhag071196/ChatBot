@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Welcome to Twiggy! Select your choice: Starters/Main Course/Desserts"]
+        },
+        {"tag": "starters",
+         "patterns": ["Starters", "Snacks","What is in starters?", "Show me some starters!", "I want some snacks!", "what all starters are there!"],
+         "responses": ["Select food item : Spring Rolls/ Chilli Paneer/ Momos/ Paneer Tikka/ Achari Chaap"]
+        },
+        {"tag": "maincourse",
+         "patterns": ["main course", "maincourse","I wish to have dinner", "what is in main course?", "Main course"],
+         "responses": ["Select food item: Dal/Paneer/Soya Chaap/Mushroom/Rajma/Biryani"]
+        },
+        {"tag": "desserts",
+         "patterns": ["dessert", "desert menu","what is in deserts", "desserts", "show me desserts"],
+         "responses": ["Tell us your choice: Gulab Jamun/Ice Cream"]
+        },
+        {"tag": "food",
+         "patterns": ["Dal","daal","daaal","panir","paneeer","Paneer","soya","chaap","soya chap","Soya Chaap","Mushroom","mashrum","mashroom","mushrom","Raajmaa","rajmaa","raajma","rajma","biryanee","birani","Biryani","Spring Rolls", "Chilli Paneer", "Momos", "Paneer Tikka", "Achari Chaap","gulab","jamun","gulab jamun","icecream","ice","cream"],
+         "responses": ["Select portion: Full plate/Half Plate"]
+        },
+        {"tag": "ordersize",
+         "patterns": ["full","full plate","fullplate","half","Half","halfplate","half plate","plate"],
+         "responses": ["Choose your payment method: Online/Cash"]
+        },
+        {"tag": "cashpayment",
+         "patterns": ["cash on delivery","cash","delivery"],
+         "responses": ["Your order has been recieved, you will get a confirmation soon!"]
+        },
+        {"tag": "onlinepayment",
+         "patterns": ["online","on line","onlin"],
+         "responses": ["Go to the payment gateway to confirm your order: www.twiggyonlinepayment.com"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","Good Job"],
+         "responses": ["Happy to help! :)", "Any time! :)", "My pleasure :)","You are welcome! see you again soon :)"]
+        }
+   ]
+}
+
